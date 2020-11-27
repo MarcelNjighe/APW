@@ -11,7 +11,7 @@ const MAX_HIGH_SCORES = 5;
 finalScore.innerText = `${mostRecentScore}/100`;
 
 // input username
-username.addEventListener("keepScore", () => {
+username.addEventListener("keyup", () => {
   saveScoreBtn.disabled = !username.value;
 });
 
